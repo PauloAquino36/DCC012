@@ -1,0 +1,612 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aquino/miniconda3/envs/cmake-tutorial/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt"
+    message: |
+      The system is: Linux - 5.15.153.1-microsoft-standard-WSL2 - x86_64
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aquino/miniconda3/envs/cmake-tutorial/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aquino/miniconda3/envs/cmake-tutorial/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aquino/miniconda3/envs/cmake-tutorial/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/aquino/miniconda3/envs/cmake-tutorial/bin/x86_64-conda-linux-gnu-cc 
+      Build flags: -march=nocona;-mtune=haswell;-ftree-vectorize;-fPIC;-fstack-protector-strong;-fno-plt;-O2;-ffunction-sections;-pipe;-isystem;/home/aquino/miniconda3/envs/cmake-tutorial/include
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /mnt/c/Users/36aqu/OneDrive/Documentos/UfJf/DCC012/build/CMakeFiles/3.31.0/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aquino/miniconda3/envs/cmake-tutorial/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aquino/miniconda3/envs/cmake-tutorial/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aquino/miniconda3/envs/cmake-tutorial/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/aquino/miniconda3/envs/cmake-tutorial/bin/x86_64-conda-linux-gnu-c++ 
+      Build flags: -fvisibility-inlines-hidden;-fmessage-length=0;-march=nocona;-mtune=haswell;-ftree-vectorize;-fPIC;-fstack-protector-strong;-fno-plt;-O2;-ffunction-sections;-pipe;-isystem;/home/aquino/miniconda3/envs/cmake-tutorial/include
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /mnt/c/Users/36aqu/OneDrive/Documentos/UfJf/DCC012/build/CMakeFiles/3.31.0/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/aquino/miniconda3/envs/cmake-tutorial/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/home/aquino/miniconda3/envs/cmake-tutorial/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/mnt/c/Users/36aqu/OneDrive/Documentos/UfJf/DCC012/build/CMakeFiles/CMakeScratch/TryCompile-3s8CI3"
+      binary: "/mnt/c/Users/36aqu/OneDrive/Documentos/UfJf/DCC012/build/CMakeFiles/CMakeScratch/TryCompile-3s8CI3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/aquino/miniconda3/envs/cmake-tutorial/include"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/36aqu/OneDrive/Documentos/UfJf/DCC012/build/CMakeFiles/CMakeScratch/TryCompile-3s8CI3'
+        
+        Run Build Command(s): /home/aquino/miniconda3/envs/cmake-tutorial/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_921ba/fast
+        gmake: Warning: File 'Makefile' has modification time 0.22 s in the future
+        /usr/bin/gmake  -f CMakeFiles/cmTC_921ba.dir/build.make CMakeFiles/cmTC_921ba.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/36aqu/OneDrive/Documentos/UfJf/DCC012/build/CMakeFiles/CMakeScratch/TryCompile-3s8CI3'
+        gmake[1]: Warning: File 'CMakeFiles/cmTC_921ba.dir/flags.make' has modification time 0.16 s in the future
+        Building C object CMakeFiles/cmTC_921ba.dir/CMakeCCompilerABI.c.o
+        /home/aquino/miniconda3/envs/cmake-tutorial/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/aquino/miniconda3/envs/cmake-tutorial/include    -v -o CMakeFiles/cmTC_921ba.dir/CMakeCCompilerABI.c.o -c /home/aquino/miniconda3/envs/cmake-tutorial/share/cmake-3.31/Modules/CMakeCCompilerABI.c
+        Reading specs from /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/aquino/miniconda3/envs/cmake-tutorial/bin/x86_64-conda-linux-gnu-cc
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++ --with-pkgversion='conda-forge gcc 13.3.0-1' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.3.0 (conda-forge gcc 13.3.0-1) 
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/aquino/miniconda3/envs/cmake-tutorial/include' '-v' '-o' 'CMakeFiles/cmTC_921ba.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_921ba.dir/'
+         /home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/cc1 -quiet -v -iprefix /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/ -isysroot /home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot -isystem /home/aquino/miniconda3/envs/cmake-tutorial/include /home/aquino/miniconda3/envs/cmake-tutorial/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_921ba.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=nocona -mtune=haswell -O2 -version -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |
+         /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_921ba.dir/CMakeCCompilerABI.c.o
+        GNU assembler version 2.43 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.43
+        GNU C17 (conda-forge gcc 13.3.0-1) version 13.3.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 14.1.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/include"
+        ignoring duplicate directory "/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include"
+        ignoring nonexistent directory "/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"
+        ignoring duplicate directory "/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include-fixed"
+        ignoring nonexistent directory "/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/aquino/miniconda3/envs/cmake-tutorial/include
+         /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include
+         /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include-fixed
+         /home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+        End of search list.
+        Compiler executable checksum: cfc6d60748a3f63fbd009e7e88e803d9
+        COMPILER_PATH=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/aquino/miniconda3/envs/cmake-tutorial/include' '-v' '-o' 'CMakeFiles/cmTC_921ba.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_921ba.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_921ba
+        /home/aquino/miniconda3/envs/cmake-tutorial/bin/cmake -E cmake_link_script CMakeFiles/cmTC_921ba.dir/link.txt --verbose=1
+        Reading specs from /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/aquino/miniconda3/envs/cmake-tutorial/bin/x86_64-conda-linux-gnu-cc
+        COLLECT_LTO_WRAPPER=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++ --with-pkgversion='conda-forge gcc 13.3.0-1' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.3.0 (conda-forge gcc 13.3.0-1) 
+        COMPILER_PATH=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/aquino/miniconda3/envs/cmake-tutorial/include' '-L/home/aquino/miniconda3/envs/cmake-tutorial/lib' '-v' '-rdynamic' '-o' 'cmTC_921ba' '-dumpdir' 'cmTC_921ba.'
+         /home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/collect2 -plugin /home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDhRvLo.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_921ba /home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o -L/home/aquino/miniconda3/envs/cmake-tutorial/lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0 -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../.. -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/aquino/miniconda3/envs/cmake-tutorial/lib -rpath-link /home/aquino/miniconda3/envs/cmake-tutorial/lib -v CMakeFiles/cmTC_921ba.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o /home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/aquino/miniconda3/envs/cmake-tutorial/lib
+        collect2 version 13.3.0
+        /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld -plugin /home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDhRvLo.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_921ba /home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o -L/home/aquino/miniconda3/envs/cmake-tutorial/lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0 -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../.. -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/aquino/miniconda3/envs/cmake-tutorial/lib -rpath-link /home/aquino/miniconda3/envs/cmake-tutorial/lib -v CMakeFiles/cmTC_921ba.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o /home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/aquino/miniconda3/envs/cmake-tutorial/lib
+        GNU ld (GNU Binutils) 2.43
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/aquino/miniconda3/envs/cmake-tutorial/include' '-L/home/aquino/miniconda3/envs/cmake-tutorial/lib' '-v' '-rdynamic' '-o' 'cmTC_921ba' '-dumpdir' 'cmTC_921ba.'
+        /home/aquino/miniconda3/envs/cmake-tutorial/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/aquino/miniconda3/envs/cmake-tutorial/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/aquino/miniconda3/envs/cmake-tutorial/lib -Wl,-rpath-link,/home/aquino/miniconda3/envs/cmake-tutorial/lib -L/home/aquino/miniconda3/envs/cmake-tutorial/lib -v -Wl,-v -rdynamic CMakeFiles/cmTC_921ba.dir/CMakeCCompilerABI.c.o -o cmTC_921ba
+        gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+        gmake[1]: Leaving directory '/mnt/c/Users/36aqu/OneDrive/Documentos/UfJf/DCC012/build/CMakeFiles/CMakeScratch/TryCompile-3s8CI3'
+        gmake: warning:  Clock skew detected.  Your build may be incomplete.
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aquino/miniconda3/envs/cmake-tutorial/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/home/aquino/miniconda3/envs/cmake-tutorial/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/aquino/miniconda3/envs/cmake-tutorial/include]
+          add: [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include]
+          add: [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include-fixed]
+          add: [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/home/aquino/miniconda3/envs/cmake-tutorial/include] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/include]
+        collapse include dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include]
+        collapse include dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include-fixed] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include-fixed]
+        collapse include dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/x86_64-conda-linux-gnu/sysroot/usr/include]
+        implicit include dirs: [/home/aquino/miniconda3/envs/cmake-tutorial/include;/home/aquino/miniconda3/envs/cmake-tutorial/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include;/home/aquino/miniconda3/envs/cmake-tutorial/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include-fixed;/home/aquino/miniconda3/envs/cmake-tutorial/x86_64-conda-linux-gnu/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aquino/miniconda3/envs/cmake-tutorial/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/home/aquino/miniconda3/envs/cmake-tutorial/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/mnt/c/Users/36aqu/OneDrive/Documentos/UfJf/DCC012/build/CMakeFiles/CMakeScratch/TryCompile-3s8CI3']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/aquino/miniconda3/envs/cmake-tutorial/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_921ba/fast]
+        ignore line: [gmake: Warning: File 'Makefile' has modification time 0.22 s in the future]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_921ba.dir/build.make CMakeFiles/cmTC_921ba.dir/build]
+        ignore line: [gmake[1]: Entering directory '/mnt/c/Users/36aqu/OneDrive/Documentos/UfJf/DCC012/build/CMakeFiles/CMakeScratch/TryCompile-3s8CI3']
+        ignore line: [gmake[1]: Warning: File 'CMakeFiles/cmTC_921ba.dir/flags.make' has modification time 0.16 s in the future]
+        ignore line: [Building C object CMakeFiles/cmTC_921ba.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/home/aquino/miniconda3/envs/cmake-tutorial/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/aquino/miniconda3/envs/cmake-tutorial/include    -v -o CMakeFiles/cmTC_921ba.dir/CMakeCCompilerABI.c.o -c /home/aquino/miniconda3/envs/cmake-tutorial/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
+        ignore line: [Reading specs from /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/aquino/miniconda3/envs/cmake-tutorial/bin/x86_64-conda-linux-gnu-cc]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++ --with-pkgversion='conda-forge gcc 13.3.0-1' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.3.0 (conda-forge gcc 13.3.0-1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/aquino/miniconda3/envs/cmake-tutorial/include' '-v' '-o' 'CMakeFiles/cmTC_921ba.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_921ba.dir/']
+        ignore line: [ /home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/cc1 -quiet -v -iprefix /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/ -isysroot /home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot -isystem /home/aquino/miniconda3/envs/cmake-tutorial/include /home/aquino/miniconda3/envs/cmake-tutorial/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_921ba.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=nocona -mtune=haswell -O2 -version -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |]
+        ignore line: [ /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_921ba.dir/CMakeCCompilerABI.c.o]
+        ignore line: [GNU assembler version 2.43 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.43]
+        ignore line: [GNU C17 (conda-forge gcc 13.3.0-1) version 13.3.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 14.1.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [ignoring duplicate directory "/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/aquino/miniconda3/envs/cmake-tutorial/include]
+        ignore line: [ /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include]
+        ignore line: [ /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include-fixed]
+        ignore line: [ /home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: cfc6d60748a3f63fbd009e7e88e803d9]
+        ignore line: [COMPILER_PATH=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/aquino/miniconda3/envs/cmake-tutorial/include' '-v' '-o' 'CMakeFiles/cmTC_921ba.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_921ba.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_921ba]
+        ignore line: [/home/aquino/miniconda3/envs/cmake-tutorial/bin/cmake -E cmake_link_script CMakeFiles/cmTC_921ba.dir/link.txt --verbose=1]
+        ignore line: [Reading specs from /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/aquino/miniconda3/envs/cmake-tutorial/bin/x86_64-conda-linux-gnu-cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++ --with-pkgversion='conda-forge gcc 13.3.0-1' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.3.0 (conda-forge gcc 13.3.0-1) ]
+        ignore line: [COMPILER_PATH=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/aquino/miniconda3/envs/cmake-tutorial/include' '-L/home/aquino/miniconda3/envs/cmake-tutorial/lib' '-v' '-rdynamic' '-o' 'cmTC_921ba' '-dumpdir' 'cmTC_921ba.']
+        link line: [ /home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/collect2 -plugin /home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDhRvLo.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_921ba /home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o -L/home/aquino/miniconda3/envs/cmake-tutorial/lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0 -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../.. -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/aquino/miniconda3/envs/cmake-tutorial/lib -rpath-link /home/aquino/miniconda3/envs/cmake-tutorial/lib -v CMakeFiles/cmTC_921ba.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o /home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/aquino/miniconda3/envs/cmake-tutorial/lib]
+          arg [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccDhRvLo.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--sysroot=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_921ba] ==> ignore
+          arg [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> obj [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o]
+          arg [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> obj [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o]
+          arg [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o] ==> obj [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o]
+          arg [-L/home/aquino/miniconda3/envs/cmake-tutorial/lib] ==> dir [/home/aquino/miniconda3/envs/cmake-tutorial/lib]
+          arg [-L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0] ==> dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0]
+          arg [-L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc] ==> dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc]
+          arg [-L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib]
+          arg [-L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib] ==> dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib]
+          arg [-L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib]
+          arg [-L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib]
+          arg [-L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib]
+          arg [-L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../..] ==> dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../..]
+          arg [-L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+          arg [-L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+          arg [-O2] ==> ignore
+          arg [--sort-common] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-znow] ==> ignore
+          arg [--disable-new-dtags] ==> ignore
+          arg [--gc-sections] ==> ignore
+          arg [--allow-shlib-undefined] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/home/aquino/miniconda3/envs/cmake-tutorial/lib] ==> ignore
+          arg [-rpath-link] ==> ignore
+          arg [/home/aquino/miniconda3/envs/cmake-tutorial/lib] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_921ba.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o] ==> obj [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o]
+          arg [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> obj [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
+          arg [-rpath] ==> ignore
+          arg [/home/aquino/miniconda3/envs/cmake-tutorial/lib] ==> ignore
+        ignore line: [collect2 version 13.3.0]
+        ignore line: [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld -plugin /home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDhRvLo.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_921ba /home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o -L/home/aquino/miniconda3/envs/cmake-tutorial/lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0 -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../.. -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/aquino/miniconda3/envs/cmake-tutorial/lib -rpath-link /home/aquino/miniconda3/envs/cmake-tutorial/lib -v CMakeFiles/cmTC_921ba.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o /home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/aquino/miniconda3/envs/cmake-tutorial/lib]
+        linker tool for 'C': /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld
+        collapse obj [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o]
+        collapse obj [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o]
+        collapse obj [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o]
+        collapse obj [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o]
+        collapse obj [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        collapse library dir [/home/aquino/miniconda3/envs/cmake-tutorial/lib] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/lib]
+        collapse library dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/lib/gcc/x86_64-conda-linux-gnu/13.3.0]
+        collapse library dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/lib/gcc]
+        collapse library dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/lib]
+        collapse library dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        collapse library dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../..] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/lib]
+        collapse library dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/home/aquino/miniconda3/envs/cmake-tutorial/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o;/home/aquino/miniconda3/envs/cmake-tutorial/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o;/home/aquino/miniconda3/envs/cmake-tutorial/lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o;/home/aquino/miniconda3/envs/cmake-tutorial/lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o;/home/aquino/miniconda3/envs/cmake-tutorial/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        implicit dirs: [/home/aquino/miniconda3/envs/cmake-tutorial/lib;/home/aquino/miniconda3/envs/cmake-tutorial/lib/gcc/x86_64-conda-linux-gnu/13.3.0;/home/aquino/miniconda3/envs/cmake-tutorial/lib/gcc;/home/aquino/miniconda3/envs/cmake-tutorial/x86_64-conda-linux-gnu/lib;/home/aquino/miniconda3/envs/cmake-tutorial/x86_64-conda-linux-gnu/sysroot/lib;/home/aquino/miniconda3/envs/cmake-tutorial/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aquino/miniconda3/envs/cmake-tutorial/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/home/aquino/miniconda3/envs/cmake-tutorial/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/home/aquino/miniconda3/envs/cmake-tutorial/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Running the C compiler's linker: "/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.43
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/aquino/miniconda3/envs/cmake-tutorial/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/home/aquino/miniconda3/envs/cmake-tutorial/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/mnt/c/Users/36aqu/OneDrive/Documentos/UfJf/DCC012/build/CMakeFiles/CMakeScratch/TryCompile-lG3Vtt"
+      binary: "/mnt/c/Users/36aqu/OneDrive/Documentos/UfJf/DCC012/build/CMakeFiles/CMakeScratch/TryCompile-lG3Vtt"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/aquino/miniconda3/envs/cmake-tutorial/include"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/36aqu/OneDrive/Documentos/UfJf/DCC012/build/CMakeFiles/CMakeScratch/TryCompile-lG3Vtt'
+        
+        Run Build Command(s): /home/aquino/miniconda3/envs/cmake-tutorial/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2f002/fast
+        gmake: Warning: File 'Makefile' has modification time 0.28 s in the future
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2f002.dir/build.make CMakeFiles/cmTC_2f002.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/36aqu/OneDrive/Documentos/UfJf/DCC012/build/CMakeFiles/CMakeScratch/TryCompile-lG3Vtt'
+        gmake[1]: Warning: File 'CMakeFiles/cmTC_2f002.dir/flags.make' has modification time 0.2 s in the future
+        Building CXX object CMakeFiles/cmTC_2f002.dir/CMakeCXXCompilerABI.cpp.o
+        /home/aquino/miniconda3/envs/cmake-tutorial/bin/x86_64-conda-linux-gnu-c++   -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/aquino/miniconda3/envs/cmake-tutorial/include    -v -o CMakeFiles/cmTC_2f002.dir/CMakeCXXCompilerABI.cpp.o -c /home/aquino/miniconda3/envs/cmake-tutorial/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
+        Reading specs from /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/aquino/miniconda3/envs/cmake-tutorial/bin/x86_64-conda-linux-gnu-c++
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++ --with-pkgversion='conda-forge gcc 13.3.0-1' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.3.0 (conda-forge gcc 13.3.0-1) 
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/aquino/miniconda3/envs/cmake-tutorial/include' '-v' '-o' 'CMakeFiles/cmTC_2f002.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_2f002.dir/'
+         /home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/cc1plus -quiet -v -iprefix /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/ -isysroot /home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /home/aquino/miniconda3/envs/cmake-tutorial/include /home/aquino/miniconda3/envs/cmake-tutorial/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2f002.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=nocona -mtune=haswell -O2 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |
+         /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_2f002.dir/CMakeCXXCompilerABI.cpp.o
+        GNU assembler version 2.43 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.43
+        GNU C++17 (conda-forge gcc 13.3.0-1) version 13.3.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 14.1.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/include"
+        ignoring duplicate directory "/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++"
+        ignoring duplicate directory "/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/x86_64-conda-linux-gnu"
+        ignoring duplicate directory "/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/backward"
+        ignoring duplicate directory "/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include"
+        ignoring nonexistent directory "/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"
+        ignoring duplicate directory "/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include-fixed"
+        ignoring nonexistent directory "/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/aquino/miniconda3/envs/cmake-tutorial/include
+         /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++
+         /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/x86_64-conda-linux-gnu
+         /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/backward
+         /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include
+         /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include-fixed
+         /home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+        End of search list.
+        Compiler executable checksum: 039015ee0a9e66f9e392e0a654f3b067
+        COMPILER_PATH=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/aquino/miniconda3/envs/cmake-tutorial/include' '-v' '-o' 'CMakeFiles/cmTC_2f002.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_2f002.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_2f002
+        /home/aquino/miniconda3/envs/cmake-tutorial/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f002.dir/link.txt --verbose=1
+        Reading specs from /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/aquino/miniconda3/envs/cmake-tutorial/bin/x86_64-conda-linux-gnu-c++
+        COLLECT_LTO_WRAPPER=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++ --with-pkgversion='conda-forge gcc 13.3.0-1' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.3.0 (conda-forge gcc 13.3.0-1) 
+        COMPILER_PATH=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/aquino/miniconda3/envs/cmake-tutorial/include' '-L/home/aquino/miniconda3/envs/cmake-tutorial/lib' '-v' '-rdynamic' '-o' 'cmTC_2f002' '-shared-libgcc' '-dumpdir' 'cmTC_2f002.'
+         /home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/collect2 -plugin /home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvBFHxN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_2f002 /home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o -L/home/aquino/miniconda3/envs/cmake-tutorial/lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0 -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../.. -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/aquino/miniconda3/envs/cmake-tutorial/lib -rpath-link /home/aquino/miniconda3/envs/cmake-tutorial/lib -v CMakeFiles/cmTC_2f002.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o /home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/aquino/miniconda3/envs/cmake-tutorial/lib
+        collect2 version 13.3.0
+        /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld -plugin /home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvBFHxN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_2f002 /home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o -L/home/aquino/miniconda3/envs/cmake-tutorial/lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0 -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../.. -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/aquino/miniconda3/envs/cmake-tutorial/lib -rpath-link /home/aquino/miniconda3/envs/cmake-tutorial/lib -v CMakeFiles/cmTC_2f002.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o /home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/aquino/miniconda3/envs/cmake-tutorial/lib
+        GNU ld (GNU Binutils) 2.43
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/aquino/miniconda3/envs/cmake-tutorial/include' '-L/home/aquino/miniconda3/envs/cmake-tutorial/lib' '-v' '-rdynamic' '-o' 'cmTC_2f002' '-shared-libgcc' '-dumpdir' 'cmTC_2f002.'
+        /home/aquino/miniconda3/envs/cmake-tutorial/bin/x86_64-conda-linux-gnu-c++ -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/aquino/miniconda3/envs/cmake-tutorial/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/aquino/miniconda3/envs/cmake-tutorial/lib -Wl,-rpath-link,/home/aquino/miniconda3/envs/cmake-tutorial/lib -L/home/aquino/miniconda3/envs/cmake-tutorial/lib -v -Wl,-v -rdynamic CMakeFiles/cmTC_2f002.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2f002
+        gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+        gmake[1]: Leaving directory '/mnt/c/Users/36aqu/OneDrive/Documentos/UfJf/DCC012/build/CMakeFiles/CMakeScratch/TryCompile-lG3Vtt'
+        gmake: warning:  Clock skew detected.  Your build may be incomplete.
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aquino/miniconda3/envs/cmake-tutorial/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/home/aquino/miniconda3/envs/cmake-tutorial/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/aquino/miniconda3/envs/cmake-tutorial/include]
+          add: [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++]
+          add: [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/x86_64-conda-linux-gnu]
+          add: [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/backward]
+          add: [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include]
+          add: [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include-fixed]
+          add: [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/home/aquino/miniconda3/envs/cmake-tutorial/include] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/include]
+        collapse include dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++]
+        collapse include dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/x86_64-conda-linux-gnu] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/x86_64-conda-linux-gnu]
+        collapse include dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/backward] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/backward]
+        collapse include dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include]
+        collapse include dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include-fixed] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include-fixed]
+        collapse include dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/x86_64-conda-linux-gnu/sysroot/usr/include]
+        implicit include dirs: [/home/aquino/miniconda3/envs/cmake-tutorial/include;/home/aquino/miniconda3/envs/cmake-tutorial/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++;/home/aquino/miniconda3/envs/cmake-tutorial/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/x86_64-conda-linux-gnu;/home/aquino/miniconda3/envs/cmake-tutorial/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/backward;/home/aquino/miniconda3/envs/cmake-tutorial/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include;/home/aquino/miniconda3/envs/cmake-tutorial/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include-fixed;/home/aquino/miniconda3/envs/cmake-tutorial/x86_64-conda-linux-gnu/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aquino/miniconda3/envs/cmake-tutorial/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/home/aquino/miniconda3/envs/cmake-tutorial/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/mnt/c/Users/36aqu/OneDrive/Documentos/UfJf/DCC012/build/CMakeFiles/CMakeScratch/TryCompile-lG3Vtt']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/aquino/miniconda3/envs/cmake-tutorial/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2f002/fast]
+        ignore line: [gmake: Warning: File 'Makefile' has modification time 0.28 s in the future]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_2f002.dir/build.make CMakeFiles/cmTC_2f002.dir/build]
+        ignore line: [gmake[1]: Entering directory '/mnt/c/Users/36aqu/OneDrive/Documentos/UfJf/DCC012/build/CMakeFiles/CMakeScratch/TryCompile-lG3Vtt']
+        ignore line: [gmake[1]: Warning: File 'CMakeFiles/cmTC_2f002.dir/flags.make' has modification time 0.2 s in the future]
+        ignore line: [Building CXX object CMakeFiles/cmTC_2f002.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/home/aquino/miniconda3/envs/cmake-tutorial/bin/x86_64-conda-linux-gnu-c++   -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/aquino/miniconda3/envs/cmake-tutorial/include    -v -o CMakeFiles/cmTC_2f002.dir/CMakeCXXCompilerABI.cpp.o -c /home/aquino/miniconda3/envs/cmake-tutorial/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Reading specs from /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/aquino/miniconda3/envs/cmake-tutorial/bin/x86_64-conda-linux-gnu-c++]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++ --with-pkgversion='conda-forge gcc 13.3.0-1' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.3.0 (conda-forge gcc 13.3.0-1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/aquino/miniconda3/envs/cmake-tutorial/include' '-v' '-o' 'CMakeFiles/cmTC_2f002.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_2f002.dir/']
+        ignore line: [ /home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/cc1plus -quiet -v -iprefix /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/ -isysroot /home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /home/aquino/miniconda3/envs/cmake-tutorial/include /home/aquino/miniconda3/envs/cmake-tutorial/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2f002.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=nocona -mtune=haswell -O2 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |]
+        ignore line: [ /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_2f002.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [GNU assembler version 2.43 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.43]
+        ignore line: [GNU C++17 (conda-forge gcc 13.3.0-1) version 13.3.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 14.1.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [ignoring duplicate directory "/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++"]
+        ignore line: [ignoring duplicate directory "/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/x86_64-conda-linux-gnu"]
+        ignore line: [ignoring duplicate directory "/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/aquino/miniconda3/envs/cmake-tutorial/include]
+        ignore line: [ /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++]
+        ignore line: [ /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/x86_64-conda-linux-gnu]
+        ignore line: [ /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/backward]
+        ignore line: [ /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include]
+        ignore line: [ /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include-fixed]
+        ignore line: [ /home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 039015ee0a9e66f9e392e0a654f3b067]
+        ignore line: [COMPILER_PATH=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/aquino/miniconda3/envs/cmake-tutorial/include' '-v' '-o' 'CMakeFiles/cmTC_2f002.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_2f002.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_2f002]
+        ignore line: [/home/aquino/miniconda3/envs/cmake-tutorial/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f002.dir/link.txt --verbose=1]
+        ignore line: [Reading specs from /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/aquino/miniconda3/envs/cmake-tutorial/bin/x86_64-conda-linux-gnu-c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++ --with-pkgversion='conda-forge gcc 13.3.0-1' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.3.0 (conda-forge gcc 13.3.0-1) ]
+        ignore line: [COMPILER_PATH=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/aquino/miniconda3/envs/cmake-tutorial/include' '-L/home/aquino/miniconda3/envs/cmake-tutorial/lib' '-v' '-rdynamic' '-o' 'cmTC_2f002' '-shared-libgcc' '-dumpdir' 'cmTC_2f002.']
+        link line: [ /home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/collect2 -plugin /home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvBFHxN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_2f002 /home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o -L/home/aquino/miniconda3/envs/cmake-tutorial/lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0 -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../.. -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/aquino/miniconda3/envs/cmake-tutorial/lib -rpath-link /home/aquino/miniconda3/envs/cmake-tutorial/lib -v CMakeFiles/cmTC_2f002.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o /home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/aquino/miniconda3/envs/cmake-tutorial/lib]
+          arg [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccvBFHxN.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--sysroot=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_2f002] ==> ignore
+          arg [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> obj [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o]
+          arg [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> obj [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o]
+          arg [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o] ==> obj [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o]
+          arg [-L/home/aquino/miniconda3/envs/cmake-tutorial/lib] ==> dir [/home/aquino/miniconda3/envs/cmake-tutorial/lib]
+          arg [-L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0] ==> dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0]
+          arg [-L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc] ==> dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc]
+          arg [-L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib]
+          arg [-L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib] ==> dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib]
+          arg [-L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib]
+          arg [-L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib]
+          arg [-L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib]
+          arg [-L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../..] ==> dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../..]
+          arg [-L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+          arg [-L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+          arg [-O2] ==> ignore
+          arg [--sort-common] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-znow] ==> ignore
+          arg [--disable-new-dtags] ==> ignore
+          arg [--gc-sections] ==> ignore
+          arg [--allow-shlib-undefined] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/home/aquino/miniconda3/envs/cmake-tutorial/lib] ==> ignore
+          arg [-rpath-link] ==> ignore
+          arg [/home/aquino/miniconda3/envs/cmake-tutorial/lib] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_2f002.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o] ==> obj [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o]
+          arg [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> obj [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
+          arg [-rpath] ==> ignore
+          arg [/home/aquino/miniconda3/envs/cmake-tutorial/lib] ==> ignore
+        ignore line: [collect2 version 13.3.0]
+        ignore line: [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld -plugin /home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvBFHxN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_2f002 /home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o -L/home/aquino/miniconda3/envs/cmake-tutorial/lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0 -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../.. -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/aquino/miniconda3/envs/cmake-tutorial/lib -rpath-link /home/aquino/miniconda3/envs/cmake-tutorial/lib -v CMakeFiles/cmTC_2f002.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o /home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/aquino/miniconda3/envs/cmake-tutorial/lib]
+        linker tool for 'CXX': /home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld
+        collapse obj [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o]
+        collapse obj [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o]
+        collapse obj [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o]
+        collapse obj [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o]
+        collapse obj [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        collapse library dir [/home/aquino/miniconda3/envs/cmake-tutorial/lib] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/lib]
+        collapse library dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/lib/gcc/x86_64-conda-linux-gnu/13.3.0]
+        collapse library dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/lib/gcc]
+        collapse library dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/lib]
+        collapse library dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        collapse library dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../..] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/lib]
+        collapse library dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/aquino/miniconda3/envs/cmake-tutorial/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/aquino/miniconda3/envs/cmake-tutorial/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/home/aquino/miniconda3/envs/cmake-tutorial/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o;/home/aquino/miniconda3/envs/cmake-tutorial/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o;/home/aquino/miniconda3/envs/cmake-tutorial/lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o;/home/aquino/miniconda3/envs/cmake-tutorial/lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o;/home/aquino/miniconda3/envs/cmake-tutorial/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        implicit dirs: [/home/aquino/miniconda3/envs/cmake-tutorial/lib;/home/aquino/miniconda3/envs/cmake-tutorial/lib/gcc/x86_64-conda-linux-gnu/13.3.0;/home/aquino/miniconda3/envs/cmake-tutorial/lib/gcc;/home/aquino/miniconda3/envs/cmake-tutorial/x86_64-conda-linux-gnu/lib;/home/aquino/miniconda3/envs/cmake-tutorial/x86_64-conda-linux-gnu/sysroot/lib;/home/aquino/miniconda3/envs/cmake-tutorial/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aquino/miniconda3/envs/cmake-tutorial/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/home/aquino/miniconda3/envs/cmake-tutorial/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/home/aquino/miniconda3/envs/cmake-tutorial/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Running the CXX compiler's linker: "/home/aquino/miniconda3/envs/cmake-tutorial/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.43
+...
